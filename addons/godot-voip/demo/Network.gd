@@ -4,6 +4,7 @@ class_name Network
 var server_port := 2608
 var server_ip := "127.0.0.1"
 
+
 func start_client() -> int:
 	var peer := StreamPeerTCP.new()
 
